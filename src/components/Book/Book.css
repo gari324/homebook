@@ -1,0 +1,70 @@
+
+.inCard{
+    margin-top: 20px;
+    width: 300px;
+    position: relative;
+    height: 480px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 15px;
+}
+.inCard strong {
+    font-weight: bold;
+    margin: 20px 0px;
+    padding: 0px 15px;
+}
+
+
+.img{
+    max-width: 50%;
+    margin: 15px auto;
+    cursor: pointer;
+
+}
+.text{
+    text-align: left;
+    height: 50px;
+    margin-bottom: 50px;
+    overflow: hidden scroll;
+}
+.Btn{
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    left: 0px;
+    top: 0px;
+    padding:5px;
+    margin: 5px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.inCard a{
+    background-color: rgb(230, 122, 0);
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-decoration: none;
+    outline: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0px 30px;
+    font-size: 16px;
+    background: rgb(20, 18, 54);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 0px;
+    height: 34px;
+    line-height: 34px;
+    transition: background 0.5s ease 0s;
+}
